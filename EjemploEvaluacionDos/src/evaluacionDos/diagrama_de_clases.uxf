@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>420</x>
+      <y>100</y>
+      <w>620</w>
+      <h>360</h>
+    </coordinates>
+    <panel_attributes>evaluacionDos::Electrodomestico
+--
+#COLOR_DEF = "blanco": String
+#CONSUMO_ENERGETICO_DEF = 'F': char
+#PRECIO_BASE_DEF = 100: double
+#PESO_DEF = 5: double
+#precioBase: double
+#color: String
+#consumoEnergetico: char
+#peso: double
+--
++Electrodomestico(): ctor
++Electrodomestico(double precioBase, double peso): ctor
++Electrodomestico(double precioBase, double peso, char consumoEnergetico, String color): ctor
+-comprobarColor(String color): void
++comprobarConsumoEnergetico(char consumoEnergetico): void
++getPrecioBase(): double
++getColor(): String
++getConsumoEnergetico(): char
++getPeso(): double
++precioFinal(): double
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>130</x>
+      <y>550</y>
+      <w>420</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>evaluacionDos::Lavadora
+--
+-CARGA_DEF = 5: int
+-carga: int
+--
++Lavadora(): ctor
++Lavadora(double precioBase, double peso): ctor
++Lavadora(double precioBase, double peso, char consumoEnergetico, String color, int carga): ctor
++getCarga(): int
++precioFinal(): double
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>920</x>
+      <y>550</y>
+      <w>340</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>evaluacionDos::Television
+--
+-RESOLUCION_DEF = 20: int
+-resolucion: int
+-sintonizadorTDT: boolean
+--
++Television(): ctor
++Television(double precioBase, double peso): ctor
++Television(double precioBase, double peso, char consumoEnergetico, String color, int resolucion, boolean sintonizadorTDT): ctor
++precioFinal(): double
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>0</y>
+      <w>180</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>evaluacionDos::Main
+--
+--
++main(String[] args): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>810</x>
+      <y>450</y>
+      <w>320</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;300.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>310</x>
+      <y>450</y>
+      <w>380</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>360.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+</diagram>
