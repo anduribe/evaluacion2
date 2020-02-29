@@ -27,5 +27,5 @@ dentro de la Clase Main puede cambiar los valores dentro de los metodos del arre
 
 Muestra de resultado:
 
-<img src="https://github.com/anduribe/ejercicio1/blob/master/muestra.jpg" width="350"/> 
+<img src="https://github.com/anduribe/evaluacion2/blob/master/muestra.jpg" width="802"/> 
 
