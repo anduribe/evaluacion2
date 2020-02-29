@@ -29,3 +29,7 @@ Muestra de resultado:
 
 <img src="https://github.com/anduribe/evaluacion2/blob/master/muestra.jpg" width="802"/> 
 
+Diagrama UML:
+<img src="https://github.com/anduribe/evaluacion2/blob/master/diagrama_de_clases_ev2.jpg" width="802"/> 
+
+
